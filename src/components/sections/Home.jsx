@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export const Home = () => {
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative px-2 py-8 sm:py-12 mx-auto">
+        <section id="home" className="min-h-screen flex items-center justify-center px-2 py-8 sm:py-12">
             <RevealOnScroll>
                 <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4 space-y-8 md:space-y-0 md:space-x-16">
-                    <div className="w-110 h-120 rounded-full overflow-hidden shadow-lg border-4 border-purple-300">
+                    <div className="w-110 h-120 rounded-full overflow-hidden shadow-lg border-4 border-purple-300 flex-shrink-0">
                         <img
                             src={import.meta.env.BASE_URL + 'profile.png'}
                             alt="Profile"
@@ -14,13 +14,13 @@ export const Home = () => {
                         />
                     </div>
 
-                    <div className="text-center ">
+                    <div className="text-center">
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 
                         bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent 
                         leading-tight">
                             Hi, I'm Deare
                         </h1>
-                        <p className="mx-auto text-gray-400 text-lg mb-8 max-w-lg">
+                        <p className="mx-auto text-gray-400 text-lg mb-6 max-w-lg max-w-xs">
                             I'm recent Master’s graduate in Computer Science with skills in Generative AI, Java, Spring Boot, MySQL, PostgreSQL and React. Passionate about software development and sharing knowledge through my YouTube coding channel. Actively seeking software Engineer opportunities.
                         </p>
                         <div className="flex justify-center space-x-4 mb-8 mt-8">
