@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export const Home = () => {
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative px-2 py-8 sm:py-12">
+        <section id="home" className="min-h-screen flex items-center justify-center relative px-2 py-8 sm:py-12 mx-auto">
             <RevealOnScroll>
                 <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4 space-y-8 md:space-y-0 md:space-x-16">
                     <div className="w-110 h-120 rounded-full overflow-hidden shadow-lg border-4 border-purple-300">
