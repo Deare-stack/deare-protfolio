@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export const Home = () => {
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative">
+        <section id="home" className="min-h-screen flex items-center justify-center relative px-2 py-8 sm:py-12">
             <RevealOnScroll>
                 <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4 space-y-8 md:space-y-0 md:space-x-16">
                     <div className="w-110 h-120 rounded-full overflow-hidden shadow-lg border-4 border-purple-300">
@@ -20,7 +20,7 @@ export const Home = () => {
                         leading-tight">
                             Hi, I'm Deare
                         </h1>
-                        <p className="text-gray-400 text-lg mb-8 max-w-lg">
+                        <p className="mx-auto text-gray-400 text-lg mb-8 max-w-lg">
                             I'm recent Master’s graduate in Computer Science with skills in Generative AI, Java, Spring Boot, MySQL, PostgreSQL and React. Passionate about software development and sharing knowledge through my YouTube coding channel. Actively seeking software Engineer opportunities.
                         </p>
                         <div className="flex justify-center space-x-4 mb-8 mt-8">
