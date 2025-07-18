@@ -8,7 +8,7 @@ export const Home = () => {
                 <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4 space-y-8 md:space-y-0 md:space-x-16">
                     <div className="w-110 h-120 rounded-full overflow-hidden shadow-lg border-4 border-purple-300">
                         <img
-                            src="/profile.png"
+                            src={import.meta.env.BASE_URL + 'profile.png'}
                             alt="Profile"
                             className="w-full h-full object-cover"
                         />
